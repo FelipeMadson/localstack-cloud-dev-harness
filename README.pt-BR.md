@@ -20,4 +20,4 @@ Harness de emulação e testes para AWS offline, proporcionando simulação em m
 
 ## Licença
 
-MIT © [Felipe Madson](https://github.com/FelipeMadson)
+MIT © [Felipe Madison](https://github.com/FelipeMadson)
