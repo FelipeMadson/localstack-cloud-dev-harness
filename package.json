@@ -1,0 +1,26 @@
+{
+  "name": "localstack-cloud-dev-harness",
+  "version": "1.0.0",
+  "description": "LocalStack AWS cloud development environment orchestrator and offline mock harness for DynamoDB, SQS, and S3 in TypeScript",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/harness.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "aws",
+    "localstack",
+    "dynamodb",
+    "sqs",
+    "s3",
+    "mock",
+    "testing"
+  ],
+  "author": "Felipe Madson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
